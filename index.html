@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <link rel="stylesheet" href="./css/all.css">
+    <meta charset="utf-8">
+    <title>Student ID-Card Generator</title>
+    <link rel="stylesheet" href="./css/style.css" media="all" />
+    <link rel="stylesheet" href="./css/mainstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+    <div class="user_login">
+      <h1>Federal University Gusau</h1>
+      <p>
+        Student ID Card Generator
+      </p>
+      <div class="login">
+        <small id="error"></small>
+        <div class="username">
+          <label for="">Username</label>
+          <input placeholder="username here" type="text" value="admin" name="" id="username">
+        </div>
+        <div class="password">
+          <label for="">Password</label>
+          <input placeholder="password here" type="password" name="" value="123456" id="password">
+        </div>
+        <button id="login">Login</button>
+      </div>
+    </div>
+    <div class="invoicepage">
+    <header class="clearfix">
+      <div id="logo">
+        <div style="position: relative;">       
+            <img src="./assets/IMG-20211019-WA0102.jpg" alt="">
+        </div>
+      </div>
+      <div id="company">
+        <h2 style="font-size: 300%;" name="Company Name" id="company-name" class="name">Federal University Gusau</h2> <br>
+        <div style="font-size: 25px;" name="Company address" id="company-address" >Knowledge, Innovation and Service</div> <br>
+      </div>
+    </header>
+    <main>
+        
+      <div class="student">
+        <div class="avatar">
+            <i id="logoPen" class='fas fa-plus-circle'></i>
+            <img id="logosource" src="./assets/MY PASSPORT.png" alt="">
+            <input type="file" name="logo" id="file" hidden>
+        </div>
+        <div class="details">
+              <div class="notice">Reg. no.: <label id="acc_name" style="font-weight: bold; margin-left: 15px; font-size: 20px;" name="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">Full name: <label id="acc_no" style="font-weight: bold; margin-left: 5px; font-size: 20px;="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">Dept.: <label id="bank_name" style="font-weight: bold; margin-left: 30px; font-size: 20px;="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">Course: <label id="bank_name" style="font-weight: bold; margin-left: 20px; font-size: 20px;="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">State: <label id="bank_name" style="font-weight: bold; margin-left: 30px; font-size: 20px;="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">Sex: <label id="bank_name" style="font-weight: bold; margin-left: 40px; font-size: 20px;="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+              <div class="notice">Exp. Date: <label id="bank_name" style="font-weight: bold; margin-left: 6px; font-size: 20px;" name="Company Name" id="company-name" contenteditable="true" " >type here</label></div>
+        </div>
+      </div>     
+    </main>
+    <footer>
+      <div class="student_sign">
+        <div class="phone">
+          Holder's Mobile Number
+          <label for=""  style="font-weight: bold; font-size: 20px;" contenteditable="true" >07069080697</label>
+        </div>
+        <div class="sign">
+            Signature: 
+        </div>
+      </div>
+      <!-- Invoice was created on a computer and is valid without the signature and seal. -->
+    </footer>
+    </div>
+    <button class="printPage">Print Invoice</button>
+
+    <div>
+      <small>Developed: Indaneey.com</small>
+    </div>
+  
+  <div id="elementH"></div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
