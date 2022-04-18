@@ -1,0 +1,33 @@
+{
+  "name": "id-card_generator",
+  "version": "1.0.0",
+  "description": "Student ID card generator with vanilla JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indaneey/student-ID_Card-generator.git"
+  },
+  "keywords": [
+    "id",
+    "card",
+    "generator",
+    "student",
+    "id-card",
+    "students",
+    "school",
+    "college",
+    "university",
+    "idcard",
+    "javascript",
+    "indaneey"
+  ],
+  "author": "Indaneey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indaneey/student-ID_Card-generator/issues"
+  },
+  "homepage": "https://github.com/indaneey/student-ID_Card-generator#readme"
+}
